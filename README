@@ -1,0 +1,8 @@
+**Purpose**
+This repository has been created exclusively to test AWS Trusted Advisor’s ability to detect exposed IAM access keys and to validate alerting/logging integrations such as Splunk.
+
+**Test Scope**
+The AWS credentials included in this repository are for a non-production, non-human service account with no permissions. These keys are deliberately exposed to simulate a security incident for the purposes of monitoring and alerting validation. 
+
+**Important Notes**
+These credentials are not employed for any real workloads and do not have access to any AWS resources. The repository is made public to enable AWS’s automated scanners to detect the exposed keys. After the test, the keys will be deleted, and the repository will be cleaned up.
